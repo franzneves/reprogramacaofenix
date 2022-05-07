@@ -6,7 +6,7 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#0f7699",
+        "primaryColor": "#ff7f9f",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
@@ -41,7 +41,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 34,
+    "uniqCompNum": 45,
     "versionPublish": "5.6.8",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -63,7 +63,9 @@
         "meta_descr": "Descubra como parar de pensar no ex de uma vez por todas sem recaídas! | Mesmo que você ainda esteja chorando 24 horas por dia após a separação...",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/m1-1600x800.jpeg"
       },
       "components": [
         {
@@ -91,7 +93,7 @@
           },
           "_name": "header2",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/119256112_174184430953849_6485764185291021210_n-1600x800.jpeg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073b4c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><i>ATENÇÃO! </i><span style=\"font-style: italic; font-weight: normal;\">Mulheres que estão sofrendo com uma separação!</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubTitle\"><b>DESCUBRA COMO PARAR DE PENSAR NO EX...</b></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">....mesmo que ainda esteja chorando 24 horas por dia...</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/119256112_174184430953849_6485764185291021210_n-1600x800.jpeg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073b4c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">ATENÇÃO! <span style=\"font-weight: normal;\">Mulheres que estão sofrendo com uma separação!</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubTitle\"><b>DESCUBRA COMO PARAR DE PENSAR NO EX...</b></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">....mesmo que ainda esteja chorando 24 horas por dia...</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "t55n8OfpQV",
           "_anchor": "header2-k",
           "_protectedParams": [],
@@ -167,7 +169,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">Para começar a nossa conversa vou te contar algo que pode te chocar:</span><br></p><p>Você sabia que muitas mulheres que focam suas vidas em esquecer o ex nunca conseguem?\n</p><p>E para piorar, muitas delas se sujeitam a se tornarem amantes?\n</p><p>Pois é, parece até novela, mas é real!\n</p><p>Olhe só...\n</p><p>Aqui está um grande problema que você enfrenta agora:\n</p><p>💔 Tenta esquecer o ex mas não consegue se imaginar feliz sem ele.  \n</p><p>Para você (mesmo inconscientemente) ele está em um pedestal tão alto que não consegue tirá-lo de lá!</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">Para começar a nossa conversa vou te contar algo que pode te chocar:</span><br></p><p>Você sabia que muitas mulheres que focam suas vidas em esquecer o ex nunca conseguem?\n</p><p><b><i>E para piorar, muitas delas se sujeitam a se tornarem amantes?\n</i></b></p><p>Pois é, parece até novela, mas é real!\n</p><p>Olhe só...\n</p><p>Aqui está um grande problema que você enfrenta agora:\n</p><p>💔 Tenta esquecer o ex mas não consegue se imaginar feliz sem ele.  \n</p><p>Para você (mesmo inconscientemente) ele está em um pedestal tão alto que não consegue tirá-lo de lá!</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "t55s6wYj9c",
           "_anchor": "content1-l",
           "_protectedParams": [],
@@ -213,7 +215,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>O que torna isso ainda pior é o fato de que se você continuar acreditando que ele é perfeito nunca mais se abrirá para um novo relacionamento.\n</p><p>Você mesma se condenará a nunca mais ter a felicidade que merece. \n</p><p>E o pior de tudo é que existem mulheres que se contentam com migalhas de afeto.\n</p><p>Saem de vez em quando com o ex ou com outra pessoa qualquer...\n</p><p>Tudo isso pode fazer com que tentar um novo relacionamento se torne um pesadelo.\n</p><p>Agora que percebeu que este comportamento não pode mais continuar, vou te mostrar a solução.</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>O que torna isso ainda pior é o fato de que se você continuar acreditando que ele é perfeito nunca mais se abrirá para um novo relacionamento.\n</p><p>Você mesma se condenará a nunca mais ter a felicidade que merece. \n</p><p><b>E o pior de tudo é que existem mulheres que se contentam com migalhas de afeto.\n</b></p><p>Saem de vez em quando com o ex ou com outra pessoa qualquer...\n</p><p>Tudo isso pode fazer com que tentar um novo relacionamento se torne um pesadelo.\n</p><p>Agora que percebeu que este comportamento não pode mais continuar, vou te mostrar a solução.</p></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-q",
           "_isUserblock": true,
           "_cid": "t55vyJrSbP",
@@ -250,7 +252,7 @@
           },
           "_name": "content9",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Mas antes preciso te contar como nossa mente funciona.</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#073b4c\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Mas antes preciso te contar como nossa mente funciona...</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "t59stcgWsj",
           "_anchor": "content9-v",
           "_protectedParams": [],
@@ -297,7 +299,7 @@
           },
           "_name": "content4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Te apresento a Reprogramação Emocional Fênix</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Te apresento a Reprogramação Emocional Fênix...</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content4-x",
           "_isUserblock": true,
           "_cid": "t59u5sd0y3",
@@ -311,101 +313,57 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
+            "background-color": "@bgColor",
+            ".counter-container": {
               "color": "#767676",
-              "font-weight": "300"
-            },
-            ".number-wrap": {
-              "color": "@labelsColor",
-              "border-color": "rgba(255, 255, 255, 0.15)",
-              "position": "relative",
-              "display": "inline-block",
-              "text-align": "center",
-              "padding": "5px 10px 13px 10px",
-              "margin": "0",
-              "min-width": "118px",
-              "border-radius": "2px",
-              "max-width": "100%"
-            },
-            ".number": {
-              "font-style": "normal",
-              "font-weight": "700",
-              "font-size": "55px",
-              "text-transform": "none",
-              "letter-spacing": "-2px",
-              "word-spacing": "0",
-              "line-height": "1.3",
-              "color": "@numbersColor"
-            },
-            ".period": {
-              "display": "block",
-              "padding-top": "2px",
-              "border-top": "1px solid rgba(0, 0, 0, 0.1)"
-            },
-            ".dot": {
-              "position": "absolute",
-              "top": "-10px",
-              "right": "-1em",
-              "width": "1em",
-              "display": "block",
-              "height": "83%",
-              "overflow": "hidden",
-              "font-style": "normal",
-              "font-weight": "700",
-              "font-size": "55px",
-              "line-height": "89.65px",
-              "text-transform": "none",
-              "letter-spacing": "0",
-              "word-spacing": "0",
-              "color": "@numbersColor"
-            },
-            ".countdown-cont": {
-              "max-width": "700px",
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".dot": {
-                "display": "none"
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
               }
             },
-            "@media (max-width: 543px)": {
-              ".number-wrap": {
-                "margin-bottom": "15px"
-              }
-            },
-            "@media (max-width: 550px)": {
-              ".col-xs-3": {
-                "padding-left": "0",
-                "padding-right": "0",
-                "max-width": "25%",
-                "flex": "0 0 25%"
-              },
-              ".number-wrap": {
-                "min-width": "auto"
-              }
-            },
-            "@media (max-width: 440px)": {
-              ".number, .dot": {
-                "font-size": "40px"
-              }
-            },
-            "@media (max-width: 380px)": {
-              ".period": {
-                "font-size": "0.8rem"
-              }
+            ".mbr-text": {
+              "color": "#232323"
             }
           },
-          "_name": "countdown1",
+          "_name": "content12",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2022/01/01\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Days\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Hours\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Seconds\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#4f4943\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Countdown\n        </h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.\n        </h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
-          "_cid": "t50qo5kqaR",
-          "_anchor": "countdown1-i",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#cc2952\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" condition=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>Desapegar do seu ex e nunca mais ficar bolando planos para trazê-lo de volta</b>, mesmo que muitas pessoas te falem que ele pensa em voltar...\n</li><li><b>Construir a sua nova identidade com independência emocional</b>, tornando-se muito mais forte e sem medo algum de viver um novo amor...\n</li><li><b>Elevar sua autoconfiança no trabalho</b>, o que fará de você uma profissional cada vez mais valorizada e disputada...\n</li><li><b>Aprender a amar sem se anular</b>, o que te livrará da sua persistente carência afetiva...\n</li><li><b>Nunca mais gastar dinheiro desnecessariamente perseguindo seu ex</b> pela cidade e baladas tentando recuperá-lo...\n</li><li><b>Descobrir que a sua saúde é fundamental para manter-se em equilíbrio...\n</b></li><li><b>Fortalecer seu coração</b> e não sentir nunca mais aquele aperto no peito que hoje te deixa destruída e sem forças para nada...\n</li><li><b>Deixar o seu passado para trás e focar mais em seus projetos futuros</b>, eliminando a sua necessidade de ficar recordando os momentos vividos e se remoendo por erros do passado...\n</li><li><b>Usar seu tempo a seu benefício</b>, buscando a sua felicidade...\n</li><li><b>Reconstruir a sua autoestima e o amor-próprio</b>, o que te dará a paz interior...\n</li><li><b>Entender que sua família e verdadeiros amigos são importantes para a sua vida</b> e que você precisa deles, mesmo que hoje tenha vergonha deles por estar tão frágil e deprimida...</li><li>E muito mais...&nbsp;</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t59TCQ0QVC",
+          "_anchor": "content12-z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -414,25 +372,22 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "P": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
               "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
             }
           },
-          "_name": "header16",
+          "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL WIDTH INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "t4TUUeHJav",
-          "_anchor": "header16-c",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Agora que entendeu a grande promessa neste momento você pode estar se perguntando ...</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-12",
+          "_isUserblock": true,
+          "_cid": "t59VwnpDbo",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -452,7 +407,8 @@
               "margin": "0 auto"
             },
             ".section-text": {
-              "padding": "2rem 0"
+              "padding": "2rem 0",
+              "color": "#cc2952"
             },
             ".inner-container": {
               "margin": "0 auto"
@@ -465,9 +421,10 @@
           },
           "_name": "content9",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\">\n                    Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                </div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_cid": "t4TUWvEm0p",
-          "_anchor": "content9-d",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#073b4c\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Quem é Fábio Costa?</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-11",
+          "_isUserblock": true,
+          "_cid": "t59VizeKpq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -479,49 +436,19 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".counter-container": {
-              "color": "#767676",
-              "ol": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
-                    "list-style": "none",
-                    "padding-left": ".5rem",
-                    "position": "relative",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-56px",
-                      "margin-top": "-10px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "40px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "40px",
-                      "height": "40px",
-                      "border-radius": "50%",
-                      "& when (@squareCounters)": {
-                        "border-radius": "0"
-                      }
-                    }
-                  }
-                }
-              }
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
             }
           },
-          "_name": "content11",
+          "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked=\"\">\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\">\n                <ol>\n                    <li><b>MOBILE FRIENDLY</b> - no special actions required, all sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site, it will adapt automagically. <a href=\"https://mobiri.se/\">Try it now!</a></li>\n                    <li><b>EASY AND SIMPLE</b> - cut down the development time with drag-and-drop website builder. Drop the blocks into the page, edit content inline and publish - no technical skills required. <a href=\"https://mobiri.se/\">Try it now!</a></li>\n                    <li><b>UNIQUE STYLES</b> - choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. <a href=\"https://mobiri.se/\">Try it now!</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "t4TUXrXpZx",
-          "_anchor": "content11-e",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">A melhor maneira de me conhecer e entender como pode usar a Reprogramação Emocional Fênix é ver como tudo começou. E para isso ...</span><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-14",
+          "_isUserblock": true,
+          "_cid": "t59XoQUp5v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -530,39 +457,46 @@
         {
           "alias": false,
           "_styles": {
-            "background": "@bgColor",
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
             },
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(45deg, @bgColor, @color2)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "figcaption": {
-              "position": "relative",
-              "div": {
-                "position": "absolute",
-                "bottom": "0",
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
+            "H2": {
+              "color": "#ffffff"
             }
           },
-          "_name": "image1",
+          "_name": "content4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section group=\"Images &amp; Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg &amp;&amp; fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"../_images/background1.jpg\" width=\"1400\" alt=\"Mobirise\">\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text=\"\" class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>\n",
-          "_cid": "t4TUZMtT1G",
-          "_anchor": "image1-g",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#7f1933\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">...eu vou te contar a história da minha amiga Adriana...</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-10",
+          "_isUserblock": true,
+          "_cid": "t59V9eIKPH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>A Adriana é minha amiga há muito tempo e também uma das minhas clientes favoritas. (este nome é fictício  manter sua privacidade).\n</p><p>Se você a conhecesse, aposto que se aproximariam desde o início, porque ela é um amor de pessoa, agregadora, adorada por todos.\n</p><p>E tem um enorme bom gosto para perfumes.\n</p><p>A Adriana é minha amiga há muito tempo e também uma das minhas clientes favoritas. (este nome é fictício  manter sua privacidade).\n</p><p>Se você a conhecesse, aposto que se aproximariam desde o início, porque ela é um amor de pessoa, agregadora, adorada por todos.\n</p><p>E tem um enorme bom gosto para perfumes.\n</p><p><b>MAS POR UMA CARÊNCIA EMOCIONAL ESCOLHEU O MARIDO ERRADO. 😪</b></p><p>Um dia, há alguns anos, a Adriana que há meses andava sumida, me ligou querendo conversar.\n</p><p>Marcamos então para o mesmo dia no final da tarde. \n</p><p>Fomos então a uma cafeteria próxima à casa dela. \n</p><p>Pela cara pálida e com sinais visíveis de choro estava claro para mim que algo muito doloroso aconteceu.\n</p><p>Ela me contou como sua vida havia virado de cabeça para baixo em poucos meses.\n</p><p>Olhe só o que ela me contou:\n</p><p>Meses antes do nosso encontro ela estava superfeliz! \n</p><p>Havia sido promovida no emprego, voltado a tocar violão e a cantar.\n</p><p>Seu marido tinha recebido um aumento de salário. \n</p><p>Estavam felizes!\n</p><p>Me falou que em uma sexta-feira seu marido Danilo, que não era nada romântico, fez uma surpresa: \n</p><p>A buscou no trabalho para jantarem juntos naquela pizzaria à luz de velas que sempre quis conhecer.\n</p><p>Para Adriana tudo estava bem em seu relacionamento com o companheiro...\n</p><p>Ela estava se sentindo a mulher mais feliz do mundo. \n</p><p>Mas as coisas infelizmente mudaram sem aviso...</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-13",
+          "_isUserblock": true,
+          "_cid": "t59WE72use",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -582,7 +516,8 @@
               "margin": "0 auto"
             },
             ".section-text": {
-              "padding": "2rem 0"
+              "padding": "2rem 0",
+              "color": "#7f1933"
             },
             ".inner-container": {
               "margin": "0 auto"
@@ -593,11 +528,97 @@
               }
             }
           },
-          "_name": "content10",
+          "_name": "content9",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\">\n                    Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                </div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
-          "_cid": "t4TUYGqv3n",
-          "_anchor": "content10-f",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Aconteceu algo que toda mulher teme...</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-17",
+          "_isUserblock": true,
+          "_cid": "t59ZsPXXDv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">Adriana notou que Danilo começou a ficar distante, mas ela não sabia o porquê ou se tinha feito algo errado.</span><br></p><p>Eles eram quase inseparáveis. \n</p><p>Mas agora... \n</p><p>Ele já não assistia mais televisão com ela no final da noite.\n</p><p>Sempre que ela o chamava para assistir uma série ele respondia que precisava trabalhar no computador.\n</p><p>Nunca ia se deitar junto dela...\n</p><p>Adriana acreditava que tudo fosse uma fase e que com o tempo tudo voltaria ao normal.\n</p><p>Mas depois de 5 dias de silêncio angustiante, ela não aguentou mais.\n</p><p>Quis reviver o jantar romântico, pois parecia haver algo errado, mas ela não sabia o quê.\n</p><p>Pediu então que Danilo a buscasse no trabalho para jantarem na quarta-feira naquela mesma pizzaria.\n</p><p>Danilo concordou e ficou marcado de buscá-la na quarta-feira, às 18 horas em frente ao prédio onde ela trabalhava.\n</p><p>Adriana sentiu que estava tudo normal, e naquela noite dormiu como um bebê pela primeira vez em dias.\n</p><p>Mas ela não tinha ideia de que Danilo estava dizendo apenas o que ela queria ouvir.\n</p><p>Na quarta-feira foi sorridente para o trabalho.\n</p><p>Quando começou a anoitecer, ela trocou de roupa lá mesmo no escritório. \n</p><p>Colocou o vestido branco e o perfume que o Danilo tanto gosta, na intenção de seduzi-lo.\n</p><p>Se preparou e ficou esperando. \n</p><p>Claro! Danilo não apareceu... \n</p><p>E não importa quantas vezes ligasse e mandasse mensagens, ele não respondia. \n</p><p><b>💔 DANILO HAVIA ROMPIDO O RELACIONAMENTO. ELE SAIU DE SUA VIDA SEM NENHUMA RAZÃO.</b></p><p>Dias depois ela ficou sabendo que Danilo já estava morando com outra pessoa.\n</p><p>E a pior parte foi que Adriana se sentiu muito envergonhada. \n</p><p>Não tinha coragem nem mesmo de chamar seus amigos para dar apoio.\n</p><p>Ela não entendia como algo tão perfeito poderia quebrar tão rapidamente.\n</p><p>Me falou que eu era sua última esperança, pois já havia tentado de tudo para diminuir o sentimento de raiva, tristeza e perda.\n</p><p>Infelizmente até saiu algumas vezes com o Danilo mesmo ele morando com outra...\n</p><p>Contava comigo, pois além de ser um grande amigo eu lidava com mulheres o tempo todo na área de relacionamentos humanos e já tinha passado por problema bem similar.\n</p><p>Me confessou também que tentou terapias energéticas, chás milagrosos, e até encontros no Tinder para fugir do sofrimento...\n</p><p>Nada funcionou. Sua vida se resumia em trabalhar e ficar chorando na frente da TV.\n</p><p><b>PRECISAVA DAR UM BASTA! 😠</b></p><p>Fiquei triste por ela, mas de alguma forma tinha certeza de que eu podia ajudá-la, só não sabia exatamente como.\n</p><p>Mas então, um pensamento forte me veio à mente.\n</p><p>Será que não existiria algo nas minhas anotações na área de relacionamentos humanos que pudesse ajudar?\n</p><p>Algo prático, palpável para que possa ser feito imediatamente...\n</p><p>Nada de teoria que aconselha, mas não ensina como fazer.\n</p><p>Era uma possibilidade e corremos para o meu escritório e vasculhamos minhas anotações.\n</p><p>E não é que eu tinha razão!\n</p><p>Eu achei na página 54 da minha agenda vermelha uma estratégia da psicologia moderna orientada para atitudes iniciais de perda.\n</p><p>Enquanto eu vasculhava a agenda outras dessas anotações apareciam. \n</p><p>\n</p><p><span style=\"font-size: 1rem;\"><b>CADA UMA DELAS FOCAVA, DE MANEIRA PRÁTICA E OBJETIVA, EM UM DOS ESTÁGIOS PSICOLÓGICOS DA PERDA.</b></span><br></p><p>Percebi que havia tropeçado em uma estratégia totalmente nova e prática de lidar com perdas emocionais.\n</p><p>E me ocorreu que essas anotações   se transformariam com perfeição em uma metodologia para a independência emocional.\n</p><p>Foi aí que tudo ficou muito claro na minha mente.\n</p><p>De repente eu sabia exatamente a primeira coisa que Adriana tinha que fazer. \n</p><p>Era um tiro no escuro, mas expliquei para ela minha ideia... \n</p><p>Eu disse que, como ela não teve sucesso até aquele momento, deveria tentar primeiramente mudar suas emoções e não ficar pensando exaustivamente  em como esquecer o Danilo.\n</p><p>O que agora chamo de Reprogramação Emocional Fênix, uma técnica que vai te colocar no controle das suas emoções.\n</p><p>Então eu escrevi em um caderno de papel amarelado o início do passo 1 que ela deveria aplicar no dia seguinte.\n</p><p>E mesmo que eu não percebesse na época, eu tinha acabado de criar o começo da Metodologia que uso até hoje.\n</p><p>Porque naquela simples folha de papel escrita à mão com uma caneta azul estava o começo da enorme mudança interior pela qual a Adriana passou. \n</p><p>No início a ela ficou na dúvida, mas enquanto ela lia o começo do passo 1 seus olhos se iluminaram.\n</p><p>Eu sabia que agora ela tinha entendido a importância de ter uma estratégia bem planejada para mudar suas emoções.\n</p><p>Então eu desejei muito que desse certo e esperei...\n</p><p>Alguns dias depois, em uma segunda-feira quando o relógio bateu as 19 badaladas, ela me ligou.\n</p><p>Atendi ansioso, pois ela é uma grande amiga e queria muito que a tivesse ajudado nem que fosse só um pouquinho.\n</p><p>Então ela me disse que sabia que ainda tinha um caminho a  percorrer, mas que estava funcionando.\n</p><p>Ainda pensava no ex, mas me disse que até conseguiu sorrir muito assistindo a um filme.\n</p><p>Isto era um bom sinal e queria muito aplicar os próximos passos.\n</p><p>Ela começou a ver um futuro muito mais radiante, alegre e feliz...\n</p><p>O que de fato ocorreu... mas essa é uma outra história...\n</p><p>E pensar que tudo começou com uma simples anotação em um caderno antigo.</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-16",
+          "_isUserblock": true,
+          "_cid": "t59YBe1oRk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "color": "#7f1933"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Agora, se você está passando por algo como Adriana vou te fazer um pedido:</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-18",
+          "_isUserblock": true,
+          "_cid": "t5a16Qbvr8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">Pare de se culpar, por favor!</span><br></p><p>Com certeza o que aconteceu não foi motivado por algo que você fez ou deixou de fazer. \n</p><p>E saiba que tentar dominar sua dor fugindo de si mesma sempre será frustrante até que entenda como ser dona dos seus próprios sentimentos.\n</p><p>E tudo isso se resume em entender como reprogramar esses sentimentos.\n</p><p>Agora preste muita atenção! \n</p><p>Esta é a parte mais importante desta nossa conversa...\n</p><p>Trocar as suas emoções e não continuar a brigar com as que já existem é a maneira mais poderosa de voltar a ser feliz.\n</p><p>Na verdade, saber controlar suas emoções a tornará muito mais atraente, pois esbanjará segurança.\n</p><p><b>E AQUI ESTÁ O SEGREDO DE COMO ISSO FUNCIONA.</b></p><p>Você  só consegue esquecer o ex e superar uma separação se tornando a melhor versão de si mesma.\n</p><p>E isso só é possível através da Reprogramação Emocional.\n</p><p>Envolver-se com alguém novamente ou se divertir ao máximo em festas não irá te trazer a felicidade que merece.\n</p><p>Em outras palavras, você não deve tentar simplesmente esquecer o ex.\n</p><p>Você deve se dedicar a se transformar em uma nova mulher primeiro, mais segura de si e atraente.\n</p><p>O que te fará esquecer de verdade o ex e voltar a ser feliz.\n</p><p>E eis porque isso é tão importante... \n</p><p>É quase impossível para uma mulher viver uma relação duradoura sem estar bem consigo mesma.\n</p><p><b>QUANDO VOCÊ SE AMA E SE TORNA A MELHOR VERSÃO DE SI, TUDO FICA MUITO MAIS FÁCIL.</b></p><p>As outras pessoas percebem isso e se aproximam de você, pois sentem-se confortáveis e seguras.\n</p><p>Tudo o que passou em breve parecerá apenas uma lembrança de outra pessoa.\n</p><p>Porque agora você é outra pessoa.\n</p><p>Quando fizer esta transformação, observará que todas as suas relações serão muito mais maduras.\n</p><p>Pois agora quem está no domínio é você.\n</p><p>Foi o que aconteceu com a Adriana.\n</p><p>Aquela simples mensagem em um papel mudou completamente a vida dela.\n</p><p>Foi também uma verdadeira revelação para mim.\n</p><p>Na verdade, fiquei tão impressionado com o poder que tem uma reforma emocional íntima que me dediquei por meses em organizar e simplificar ao máximo todas as etapas.\n</p><p>Elas tinham que ser práticas de usar. \n</p><p>Precisavam ser fáceis de aplicar no dia a dia sem a necessidade de um professor do lado.\n</p><p>Mas o mais importante: elas tinham que proporcionar a superação de uma perda de uma maneira natural.\n</p><p>Então eu me tranquei em meu escritório e procurei por todos os passos em minhas anotações.\n</p><p>No início foi lento. \n</p><p>Mas então com o passar dos meses vi que todos os passos da estratégia estavam lá.\n</p><p>Precisavam ser lapidados, mas estavam lá.\n</p><p>E eu os chamei de passos para a reprogramação emocional por causa da incrível capacidade que têm de te fazer superar os sentimentos de um separação se tornando a melhor versão de si mesma.\n</p><p>Nos últimos meses, ensinei esses passos a mulheres que estão passando pelos mesmos problemas que você.\n</p><p>Seja com maridos que as trocaram por outras;\n</p><p>Companheiros ou companheiras que simplesmente sumiram;\n</p><p>Namorados emocionalmente indisponíveis. \n</p><p>As histórias de sucesso da vida real que ouvi são surpreendentes.\n</p><p>As mulheres que tinham praticamente desistido de encontrar o amor verdadeiro agora se reencontraram.\n</p><p>Agora tinham parceiros que as admiravam e as amavam.\n</p><p>E com base nos depoimentos que tive, refinei e aperfeiçoei ainda mais cada passo.\n</p><p>Adicionei instruções detalhadas para cada um e incluí dicas e exemplos que desenvolvi ao longo do caminho.\n</p><p>E foi assim que nasceu a Reprogramação Emocional Fênix. \n</p><p><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-15",
+          "_isUserblock": true,
+          "_cid": "t59YsyHWBK",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
