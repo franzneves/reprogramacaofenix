@@ -691,17 +691,27 @@ section.lazy-placeholder:after {
 .cid-t55n8OfpQV H3 {
   color: #ffffff;
 }
-.cid-t55u0uKdwY {
-  padding-top: 15px;
-  padding-bottom: 0px;
+.cid-t59rtMeZhJ {
+  padding-top: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
-.cid-t55u0uKdwY .mbr-text,
-.cid-t55u0uKdwY blockquote {
+@media (min-width: 992px) {
+  .cid-t59rtMeZhJ .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-t59rtMeZhJ .mbr-figure {
+    padding-top: 1rem;
+  }
+}
+.cid-t59rtMeZhJ .mbr-text {
   color: #232323;
+  text-align: left;
 }
 .cid-t55s6wYj9c {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -713,15 +723,15 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-t55sKSVrhv {
-  padding-top: 15px;
-  padding-bottom: 0px;
+  padding-top: 45px;
+  padding-bottom: 30px;
   background-color: #efefef;
 }
 .cid-t55sKSVrhv .mbr-section-subtitle {
   color: #767676;
 }
 .cid-t55sKSVrhv H2 {
-  color: #232323;
+  color: #00337f;
 }
 .cid-t55vyJrSbP {
   padding-top: 15px;
@@ -735,13 +745,52 @@ section.lazy-placeholder:after {
 .cid-t55vyJrSbP .mbr-text {
   color: #232323;
 }
-.cid-t55zsEOVhD {
-  padding-top: 15px;
+.cid-t59stcgWsj {
+  padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #e4d295;
+  background-color: #ffffff;
 }
-.cid-t55zsEOVhD P {
+.cid-t59stcgWsj .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-t59stcgWsj .section-text {
+  padding: 2rem 0;
+  color: #ff0000;
+}
+.cid-t59stcgWsj .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-t59stcgWsj .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-t59sWqreuK {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-t59sWqreuK .mbr-text,
+.cid-t59sWqreuK blockquote {
   color: #767676;
+}
+.cid-t59sWqreuK .mbr-text {
+  color: #232323;
+}
+.cid-t59u5sd0y3 {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-t59u5sd0y3 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-t59u5sd0y3 H2 {
+  color: #ff0000;
 }
 .cid-t50qo5kqaR {
   padding-top: 90px;
