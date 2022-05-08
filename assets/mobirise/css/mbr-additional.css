@@ -1127,7 +1127,7 @@ section.lazy-placeholder:after {
 .cid-t5gKObgSBT {
   padding-top: 45px;
   padding-bottom: 30px;
-  background-color: #e4d295;
+  background-color: #7f1933;
 }
 .cid-t5gKObgSBT .mbr-section-subtitle {
   color: #767676;
@@ -1150,7 +1150,7 @@ section.lazy-placeholder:after {
 .cid-t5gZm9fi9C {
   padding-top: 15px;
   padding-bottom: 15px;
-  background: linear-gradient(45deg, #ffffff, #efefef);
+  background: linear-gradient(45deg, #efefef, #efefef);
 }
 .cid-t5gZm9fi9C .list-group-item {
   padding: .75rem 3.25rem;
@@ -1223,6 +1223,7 @@ section.lazy-placeholder:after {
 }
 .cid-t5gWFqidCu .section-text {
   padding: 2rem 0;
+  color: #232323;
 }
 .cid-t5gWFqidCu .inner-container {
   margin: 0 auto;
@@ -1307,7 +1308,7 @@ section.lazy-placeholder:after {
 .cid-t5h3hPh7dG {
   padding-top: 15px;
   padding-bottom: 15px;
-  background: linear-gradient(45deg, #ffffff, #efefef);
+  background: linear-gradient(45deg, #efefef, #efefef);
 }
 .cid-t5h3hPh7dG .list-group-item {
   padding: .75rem 3.25rem;
@@ -1388,28 +1389,16 @@ section.lazy-placeholder:after {
 .cid-t5h1cDnxm0 H2 {
   color: #ffffff;
 }
-.cid-t5h1G1mIQM {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-t5haE7iUMw {
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
-.cid-t5h1G1mIQM .line {
-  background-color: #7f1933;
-  color: #7f1933;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
+.cid-t5haE7iUMw .mbr-section-subtitle {
+  color: #232323;
 }
-.cid-t5h1G1mIQM .section-text {
-  padding: 2rem 0;
-}
-.cid-t5h1G1mIQM .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-t5h1G1mIQM .inner-container {
-    width: 100% !important;
-  }
+.cid-t5haE7iUMw H2 {
+  color: #cc2952;
 }
 .cid-t5h1sfB3B3 {
   padding-top: 15px;
@@ -1595,4 +1584,16 @@ section.lazy-placeholder:after {
 }
 .cid-t5h3IhPs0V .plan-title {
   color: #1abc9c;
+}
+.cid-t5hnpgBMh4 {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-t5hnpgBMh4 .mbr-text,
+.cid-t5hnpgBMh4 blockquote {
+  color: #767676;
+}
+.cid-t5hnpgBMh4 .mbr-text {
+  color: #232323;
 }
