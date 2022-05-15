@@ -50,7 +50,7 @@
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
     "favicon": "@PROJECT_PATH@/assets/images/favicon-64x64.png",
-    "mbrsiteDomain": "xrqccqexne",
+    "mbrsiteDomain": "lfwleodkio",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -58,7 +58,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "google-analytics": "<!-- -----Hotjar----- -->\n<script>\n    (function(h,o,t,j,a,r){\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n        h._hjSettings={hjid:2496500,hjsv:6};\n        a=o.getElementsByTagName('head')[0];\n        r=o.createElement('script');r.async=1;\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n        a.appendChild(r);\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\n</script>\n<!-- -----Hotjar----- -->\n<!-- ---GA--- -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112001127-3\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-112001127-3');\n</script>\n<!-- ---GA--- -->"
+    "google-analytics": "<!-- -----Hotjar----- -->\n<script>\n    (function(h,o,t,j,a,r){\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n        h._hjSettings={hjid:2496500,hjsv:6};\n        a=o.getElementsByTagName('head')[0];\n        r=o.createElement('script');r.async=1;\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n        a.appendChild(r);\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\n</script>\n<!-- -----Hotjar----- -->\n<!-- ---GA--4- -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HKSWMBSVG4\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-HKSWMBSVG4');\n</script>\n<!-- ---GA--4- -->\n<!-- ---GA--2- -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112001127-3\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-112001127-3');\n</script>\n<!-- ---GA2--- -->\n"
   },
   "pages": {
     "index.html": {
