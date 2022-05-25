@@ -6,7 +6,7 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#55b4d4",
+        "primaryColor": "#1abc9c",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
@@ -44,13 +44,13 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 126,
+    "uniqCompNum": 132,
     "versionPublish": "5.6.8",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
     "favicon": "@PROJECT_PATH@/assets/images/favicon-64x64.png",
-    "mbrsiteDomain": "677ujo9hqc",
+    "mbrsiteDomain": "7tcmkk3jug",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -70,7 +70,7 @@
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/m1-1600x800.jpeg"
+        "meta_image": "@PROJECT_PATH@/assets/images/fnix-3-baixa-300x236.png"
       },
       "components": [
         {
