@@ -750,6 +750,30 @@ section.lazy-placeholder:after {
 .cid-t55sKSVrhv H2 {
   color: #ffffff;
 }
+.cid-t7EjsBrMJN {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cid-t7EjsBrMJN .image-block {
+  margin: auto;
+}
+.cid-t7EjsBrMJN .mbr-figure {
+  margin: 0 auto;
+}
+.cid-t7EjsBrMJN figcaption {
+  position: relative;
+}
+.cid-t7EjsBrMJN figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-t7EjsBrMJN .image-block {
+    width: 100% !important;
+  }
+}
 .cid-t55vyJrSbP {
   padding-top: 15px;
   padding-bottom: 15px;
