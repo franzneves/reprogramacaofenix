@@ -852,8 +852,8 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-teqhENSPTD {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-teqhENSPTD .line {
@@ -1009,7 +1009,7 @@ section.lazy-placeholder:after {
 }
 .cid-t55vyJrSbP {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-t55vyJrSbP .mbr-text,
@@ -1019,9 +1019,24 @@ section.lazy-placeholder:after {
 .cid-t55vyJrSbP .mbr-text {
   color: #232323;
 }
-.cid-teqCTBbQc6 {
-  padding-top: 0px;
+.cid-ter5q3BPYr {
+  padding-top: 15px;
   padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ter5q3BPYr .mbr-text,
+.cid-ter5q3BPYr blockquote {
+  color: #767676;
+}
+.cid-ter5q3BPYr .mbr-text {
+  color: #232323;
+}
+.cid-ter5q3BPYr .mbr-text P {
+  text-align: left;
+}
+.cid-teqCTBbQc6 {
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-teqCTBbQc6 .line {
@@ -1042,6 +1057,159 @@ section.lazy-placeholder:after {
   .cid-teqCTBbQc6 .inner-container {
     width: 100% !important;
   }
+}
+.cid-ter5roUmOk {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-ter5roUmOk .mbr-text,
+.cid-ter5roUmOk blockquote {
+  color: #767676;
+}
+.cid-ter5roUmOk .mbr-text {
+  color: #232323;
+}
+.cid-ter5roUmOk .mbr-text P {
+  text-align: left;
+}
+.cid-teraFDRCuz {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-teraFDRCuz .line {
+  background-color: #232323;
+  color: #232323;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-teraFDRCuz .section-text {
+  padding: 2rem 0;
+  color: #232323;
+}
+.cid-teraFDRCuz .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-teraFDRCuz .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-ter69uogCb {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ter69uogCb .mbr-text,
+.cid-ter69uogCb blockquote {
+  color: #767676;
+}
+.cid-ter69uogCb .mbr-text {
+  color: #232323;
+}
+.cid-ter69uogCb .mbr-text P {
+  text-align: left;
+}
+.cid-ter7fBBtfS {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ter7fBBtfS .mbr-text,
+.cid-ter7fBBtfS blockquote {
+  color: #767676;
+}
+.cid-ter7fBBtfS .mbr-text {
+  color: #232323;
+}
+.cid-ter7fBBtfS .mbr-text P {
+  text-align: left;
+}
+.cid-ter7kWrdYh {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-ter7kWrdYh .mbr-text,
+.cid-ter7kWrdYh blockquote {
+  color: #767676;
+}
+.cid-ter7kWrdYh .mbr-text {
+  color: #232323;
+}
+.cid-ter7kWrdYh .mbr-text P {
+  text-align: left;
+}
+.cid-ter80jlkao {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-ter80jlkao .mbr-text,
+.cid-ter80jlkao blockquote {
+  color: #767676;
+}
+.cid-ter80jlkao .mbr-text {
+  color: #232323;
+}
+.cid-ter80jlkao .mbr-text P {
+  text-align: left;
+}
+.cid-ter6kuqdxm {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-ter6kuqdxm .mbr-text,
+.cid-ter6kuqdxm blockquote {
+  color: #767676;
+}
+.cid-ter6kuqdxm .mbr-text {
+  color: #232323;
+}
+.cid-ter6kuqdxm .mbr-text P {
+  text-align: left;
+}
+.cid-ter9yDQRbZ {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-ter9yDQRbZ .line {
+  background-color: #232323;
+  color: #232323;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-ter9yDQRbZ .section-text {
+  padding: 2rem 0;
+  color: #232323;
+}
+.cid-ter9yDQRbZ .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-ter9yDQRbZ .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-ter6wyNPu2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-ter6wyNPu2 .mbr-text,
+.cid-ter6wyNPu2 blockquote {
+  color: #767676;
+}
+.cid-ter6wyNPu2 .mbr-text {
+  color: #232323;
+}
+.cid-ter6wyNPu2 .mbr-text P {
+  text-align: left;
 }
 .cid-t55sKSVrhv {
   padding-top: 30px;
