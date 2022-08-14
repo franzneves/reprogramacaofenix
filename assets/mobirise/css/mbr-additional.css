@@ -1981,17 +1981,6 @@ section.lazy-placeholder:after {
 .cid-tevvtMpw7c .mbr-text P {
   text-align: left;
 }
-.cid-t55sKSVrhv {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #e4d295;
-}
-.cid-t55sKSVrhv .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-t55sKSVrhv H2 {
-  color: #232323;
-}
 .cid-taaQOVUeEP {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -2095,17 +2084,6 @@ section.lazy-placeholder:after {
   display: flex;
   flex-direction: column-reverse;
 }
-.cid-t5gKObgSBT {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #1abc9c;
-}
-.cid-t5gKObgSBT .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-t5gKObgSBT H2 {
-  color: #ffffff;
-}
 .cid-t7vkrbMWQ3 {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -2116,91 +2094,6 @@ section.lazy-placeholder:after {
 }
 .cid-t7vkrbMWQ3 H2 {
   color: #ff0000;
-}
-.cid-t5h0Tx2fZ8 {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-color: #efefef;
-}
-.cid-t5h0Tx2fZ8 .mbr-section-subtitle {
-  color: #1abc9c;
-}
-.cid-t5h0Tx2fZ8 H2 {
-  color: #ff0000;
-}
-.cid-t5h3hPh7dG {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: linear-gradient(45deg, #efefef, #efefef);
-}
-.cid-t5h3hPh7dG .list-group-item {
-  padding: .75rem 3.25rem;
-}
-.cid-t5h3hPh7dG .plan {
-  word-break: break-word;
-  position: relative;
-  max-width: 300px;
-  padding-right: 0;
-  padding-left: 0;
-  color: #767676;
-}
-.cid-t5h3hPh7dG .plan .list-group-item {
-  position: relative;
-  -webkit-justify-content: center;
-  justify-content: center;
-  border: 0;
-}
-.cid-t5h3hPh7dG .plan .list-group-item::after {
-  position: absolute;
-  bottom: 0;
-  left: 20%;
-  width: 60%;
-  height: 2px;
-  content: "";
-  background-color: #eaeaea;
-}
-.cid-t5h3hPh7dG .plan .list-group-item:last-child::after {
-  display: none;
-}
-.cid-t5h3hPh7dG .plan-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.cid-t5h3hPh7dG .plan-header,
-.cid-t5h3hPh7dG .plan-body {
-  background-color: #fff;
-}
-.cid-t5h3hPh7dG .price-figure {
-  font-weight: 700;
-  color: #1abc9c;
-}
-.cid-t5h3hPh7dG .price-value {
-  font-weight: 700;
-  vertical-align: top;
-  color: #1abc9c;
-}
-@media (max-width: 550px) {
-  .cid-t5h3hPh7dG .price-figure {
-    font-size: 4.25rem;
-  }
-}
-.cid-t5h3hPh7dG UL {
-  color: #232323;
-}
-.cid-t5h3hPh7dG .plan-title {
-  color: #1abc9c;
-}
-.cid-t5hnpgBMh4 {
-  padding-top: 0px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-}
-.cid-t5hnpgBMh4 .mbr-text,
-.cid-t5hnpgBMh4 blockquote {
-  color: #767676;
-}
-.cid-t5hnpgBMh4 .mbr-text {
-  color: #232323;
 }
 .cid-t6dtlUERJH {
   padding-top: 75px;
