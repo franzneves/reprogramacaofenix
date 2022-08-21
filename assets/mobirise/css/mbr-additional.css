@@ -3051,7 +3051,7 @@ section.lazy-placeholder:after {
   color: #ffffff;
 }
 .cid-teORf5d5YZ {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -3451,7 +3451,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-tf9AJCeleV {
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -3460,7 +3460,7 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-tf9AJCeleV .mbr-text {
-  color: #232323;
+  color: #1abc9c;
 }
 .cid-tf9AJCeleV .mbr-text P {
   text-align: center;
@@ -3734,5 +3734,8 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-teORfesGfv .mbr-text {
-  color: #232323;
+  color: #ffffff;
+}
+.cid-teORfesGfv .mbr-text P {
+  text-align: center;
 }
