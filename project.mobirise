@@ -3271,7 +3271,7 @@
             },
             ".section-text": {
               "padding": "2rem 0",
-              "color": "#ff0000"
+              "color": "#da5b0f"
             },
             ".inner-container": {
               "margin": "0 auto"
@@ -3603,7 +3603,7 @@
             },
             ".section-text": {
               "padding": "2rem 0",
-              "color": "#7f1933"
+              "color": "#da5b0f"
             },
             ".inner-container": {
               "margin": "0 auto"
@@ -3718,7 +3718,7 @@
             },
             ".section-text": {
               "padding": "2rem 0",
-              "color": "#cc2952"
+              "color": "#7f1933"
             },
             ".inner-container": {
               "margin": "0 auto"
