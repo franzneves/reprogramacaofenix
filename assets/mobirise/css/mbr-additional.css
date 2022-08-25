@@ -2592,9 +2592,61 @@ section.lazy-placeholder:after {
 .cid-tfgDqX3qJt .mbr-text {
   color: #232323;
 }
+.cid-tfwt5PloJF {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #1abc9c;
+}
+.cid-tfwt5PloJF .mbr-text,
+.cid-tfwt5PloJF blockquote {
+  color: #767676;
+}
+.cid-tfwt5PloJF .mbr-text {
+  color: #ffffff;
+}
+.cid-tfwt5PloJF .mbr-text P {
+  text-align: center;
+}
+.cid-tfwt7cgi96 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-tfwt7cgi96 .counter-container {
+  color: #767676;
+}
+.cid-tfwt7cgi96 .counter-container ul {
+  margin-bottom: 0;
+}
+.cid-tfwt7cgi96 .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+}
+.cid-tfwt7cgi96 .counter-container ul li:before {
+  position: absolute;
+  left: -56px;
+  margin-top: -10px;
+  padding-top: 3px;
+  content: '';
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 20px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #1abc9c;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  content: '✓';
+}
+.cid-tfwt7cgi96 .mbr-text {
+  color: #232323;
+}
 .cid-tfgDrOQaCm {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-tfgDrOQaCm .mbr-text,
@@ -2892,7 +2944,7 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-tfgDEYdEkm .mbr-text P {
-  text-align: center;
+  text-align: left;
 }
 .cid-tfgDFH9ceS {
   background: #ffffff;
