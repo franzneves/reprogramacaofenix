@@ -2281,30 +2281,6 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
-.cid-tfgDmkDxr7 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #efefef;
-}
-.cid-tfgDmkDxr7 .line {
-  background-color: #232323;
-  color: #232323;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-tfgDmkDxr7 .section-text {
-  padding: 2rem 0;
-  color: #232323;
-}
-.cid-tfgDmkDxr7 .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-tfgDmkDxr7 .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-tfgDn4s1ka {
   padding-top: 30px;
   padding-bottom: 15px;
