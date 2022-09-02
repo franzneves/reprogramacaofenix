@@ -2816,20 +2816,29 @@ section.lazy-placeholder:after {
 .cid-tfgDIABktL .card-img {
   color: #1abc9c;
 }
-.cid-tfxvfG4fcL {
-  padding-top: 0px;
-  padding-bottom: 15px;
+.cid-tghEem68x8 {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
-.cid-tfxvfG4fcL .mbr-text,
-.cid-tfxvfG4fcL blockquote {
-  color: #767676;
+.cid-tghEem68x8 .line {
+  background-color: #00337f;
+  color: #00337f;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
-.cid-tfxvfG4fcL .mbr-text {
-  color: #232323;
+.cid-tghEem68x8 .section-text {
+  padding: 2rem 0;
+  color: #00337f;
 }
-.cid-tfxvfG4fcL .mbr-text P {
-  text-align: left;
+.cid-tghEem68x8 .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-tghEem68x8 .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-tfxvey75yu {
   padding-top: 15px;
